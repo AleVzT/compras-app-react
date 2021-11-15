@@ -1,0 +1,23 @@
+.prolist {
+    float: right;
+    padding: 2rem;
+}
+
+.prolist__btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #1192ee;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: inherit;
+    border-radius: 0.25rem;
+    transition: transform 0.05s;
+    border: 1px solid #1192ee;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

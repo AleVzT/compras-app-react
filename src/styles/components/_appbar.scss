@@ -1,0 +1,51 @@
+.appbar {
+    background-color: $primary;
+    padding: 2rem 10rem;
+    height: 0.5rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        height: 100%;
+
+        &__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 2rem;
+        }
+    }
+}
+
+.appbar__input {
+    width: 100%;
+    height: 1.8rem;
+    font-size: 18px;
+    padding: 7px 60px 9px 15px;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    font-family: inherit;
+    color: #333;
+    float: right;
+    &:focus {
+        outline: none;
+    }
+}
+
+.appbar__icon {
+    all: unset;
+    position: relative;
+    right: 40px;
+    border-left: 1px solid $light-grey;
+    padding-left: 10px ;
+    z-index: 1;
+    color: #4f5b66;
+    cursor: pointer;
+}
+
+.appbar__forma {
+    display: contents;
+}

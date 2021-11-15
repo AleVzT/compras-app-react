@@ -1,0 +1,66 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.main {
+    padding: 1rem 12rem;
+    height: 50vmax;
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.container {
+    background-color: $light-grey;
+}
+
+.mt-1 {
+    margin-top: 5px;
+}
+
+.mt-5 {
+    margin-top: 20px;
+}
+
+.mb-1 {
+    margin-bottom: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 20px;
+}
+
+.mr-1 {
+    margin-right: 5px;
+}
+
+.mr-5 {
+    margin-right: 20px;
+}
+
+.ml-1 {
+    margin-left: 5px;
+}
+
+.ml-5 {
+    margin-right: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.col-1 {
+    width: 10%;
+}
+
+.col-9 {
+    width: 90%;
+}
